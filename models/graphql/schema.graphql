@@ -1,0 +1,9 @@
+type User {
+    id: String!
+    user_name: String!
+}
+
+type Query {
+    test: String!
+    user_confirm(token: String!): User!
+}
